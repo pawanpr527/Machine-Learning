@@ -194,7 +194,6 @@ summery = customer_df.groupby('Cluster').agg({
     'TotalQty': 'mean',
     'AvgPrice': 'mean'
 })
-# print(summery)
 
 #Market Basket On per Cluster
 from mlxtend.frequent_patterns import apriori,association_rules
