@@ -215,8 +215,8 @@ def run_apriori(cluster):
     print(store_data.shape)
     return store_data
     
-for customer_id in sorted(customer_df['Cluster'].unique()):
-   df = pd.concat([df,run_apriori(customer_id)],ignore_index=True)
+for cluster in sorted(customer_df['Cluster'].unique()):
+   df = pd.concat([df,run_apriori(cluster)],ignore_index=True)
    
 df['antecedents'] = df['antecedents'].apply(lambda x: ', '.join(sorted(x)))
 df['consequents'] = df['consequents'].apply(lambda x: ', '.join(sorted(x)))
