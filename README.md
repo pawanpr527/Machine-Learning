@@ -12,4 +12,5 @@ This repository is a showcase of my hands-on Machine Learning practice projects 
 
 💡 This repo isn’t just code — it’s a timeline of my growth as a Machine Learning enthusiast!
 
-"Beginner" Directory contains basic and easy to interpretable machine learning projects such as Titanic Survival , Iris Dataset etc..
+<h4>Beginner Directory : </h4>
+Directory contains basic and easy to interpretable machine learning projects such as Titanic Survival , Iris Dataset etc..
